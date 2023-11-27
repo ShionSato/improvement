@@ -4,7 +4,7 @@ from flask import Flask, render_template, request
 import sys
 import os
 sys.path.append('./src')
-sys.path.append('./openai_env')
+sys.path.append('./ai_generate')
 import antlr
 import AI_exe
 current_dir = os.path.dirname(os.path.abspath(__file__))
