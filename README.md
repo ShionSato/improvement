@@ -1,14 +1,14 @@
 # 改善プログラムの説明
 
-改善システムの処理に関わるプログラムは以下。
+改善システムの処理に関わるプログラムは以下。それぞれの右側の括弧内はファイルが入っているフォルダ(improvementからの相対)
 
 * main.py
-* antlr.py
-* tcScan.py
-* execution.py
-* comparison.py
-* pro1_syntax.py
-* AI_exe.py
+* antlr.py (src)
+* tcScan.py (src)
+* execution.py (src)
+* comparison.py (src)
+* pro1_syntax.py (ai_generate)
+* AI_exe.py (ai_generate)
 
 ## main.py
 リストボックスで受講済みの授業回を入力、テキストでプログラムを入力するindex.htmlを表示するプログラム。
