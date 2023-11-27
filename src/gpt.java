@@ -1,40 +1,34 @@
-public class Kouka3 {
+```
+public class Program {
     public static void main(String[] args) {
-        String s = System.console().readLine("支払い金額:");
-        int shiharai = Integer.parseInt(s);
-        int[] maisu = new int[]{0, 0, 0, 0, 0, 0};
-        int[] kouka = new int[]{500, 100, 50, 10, 5, 1};
-        int goukei = 0;
-        
-        for (int i = 0; i < args.length; i++) {
-            maisu[i] = Integer.parseInt(args[i]);
-            goukei += kouka[i] * maisu[i];
+        String input;
+        int max = -2147483648;
+
+        input = System.console().readLine("整数を入力：");
+        int num1 = Integer.parseInt(input);
+        if (num1 > max) {
+            max = num1;
         }
-        
-        if (goukei >= shiharai) {
-            System.out.println("支払える");
-            
-            for (int i = 0; i < kouka.length; i++) {
-                int a = kouka[i] * maisu[i];
-                
-                for (int j = 0; j < maisu[i]; j++) {
-                    if (shiharai < a) {
-                        a -= kouka[i];
-                    }
-                }
-                
-                if (shiharai > 0 && a != 0) {
-                    shiharai %= a;
-                }
-            }
-            
-            if (shiharai == 0) {
-                System.out.println("また、お釣りなしでも支払い可能");
-            } else {
-                System.out.println("でも、お釣りなしでは支払えない");
-            }
-        } else {
-            System.out.println("支払えない");
+
+        input = System.console().readLine("整数を入力：");
+        int num2 = Integer.parseInt(input);
+        if (num2 > max) {
+            max = num2;
         }
+
+        input = System.console().readLine("整数を入力：");
+        int num3 = Integer.parseInt(input);
+        if (num3 > max) {
+            max = num3;
+        }
+
+        input = System.console().readLine("整数を入力：");
+        int num4 = Integer.parseInt(input);
+        if (num4 > max) {
+            max = num4;
+        }
+
+        System.out.println("最大値：" + max);
     }
 }
+```
