@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>改善結果</title>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+    </head>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <style>
+        pre code {
+        display: block;
+        white-space: pre;
+        }
+    </style>
+
+    <body>
+        <p>改善前のプログラム</p>
+        <pre><code class="java">{{ student }}</code></pre>
+        <br>
+        <p>改善結果</p>
+        <pre><code class="java">{{ result }}</code></pre>
+
+        <form action="/templates" method="get">
+            <input type="submit" value='戻る'>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>プログラム改善システム</title>
+    </head>
+    <body>
+      <p>改善したいプログラムを入力してください</p>
+      <div>{{ng_message}}</div>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="fileInput"><br><br>
+            <label for="selected_number">受講済みの授業回を選択してください：</label>
+            <select id="selected_number" name="selected_number">
+              <option value="1">第1回 Java言語の見晴台〜Javaでこんにちは</option>
+              <option value="2">第2回 計算をやってみよう</option>
+              <option value="3">第3回 変数と型 前編</option>
+              <option value="4">第4回 変数と型 後編</option>
+              <option value="5">第5回 変数と型 演習</option>
+              <option value="6">第6回 if文</option>
+              <option value="7">第7回 if文 演習</option>
+              <option value="8">第8回 中間試験</option>
+              <option value="9">第9回 for文</option>
+              <option value="10">第10回 for文 演習</option>
+              <option value="11">第11回 配列</option>
+              <option value="12">第12回 期末試験</option>
+              <option value="13">第13回 配列 演習</option>
+            </select><br><br>
+            <input type="submit" value="アップロード">
+          </form>
+    </body>
+</html>

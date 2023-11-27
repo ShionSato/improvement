@@ -1,0 +1,421 @@
+QUIZ_ID	NO	COMMANDLINEARGS	STANDARDINPUTS
+Aisatsu	1	NULL	NULL
+Aisatsu2	1	NULL	11
+Aisatsu2	2	NULL	13
+Aisatsu2	3	NULL	0
+Aisatsu2	4	NULL	18
+Aisatsu2	5	NULL	19
+Aisatsu2	6	NULL	23
+Aisatsu2	7	NULL	24
+Aisatsu2	8	NULL	-1
+ArgumentTest	1	拓殖太郎	NULL
+ArgumentTest	2	拓殖太郎 高尾二郎 茗荷谷花子	NULL
+ArgumentTest	3	Paul John George Ringo	NULL
+Average	1	NULL	2 8
+Average	2	NULL	1573 13
+Average	3	NULL	5 5
+Average	4	NULL	3 12
+Baisu1	1	NULL	218403
+Baisu1	2	NULL	218490
+Baisu1	3	NULL	218401
+Baisu1	4	NULL	218402
+Baisu2	1	NULL	6
+Baisu2	2	NULL	28
+Baisu2	3	NULL	4
+Baisu2	4	NULL	81
+Baisu2	5	NULL	49
+Baisu2	6	NULL	42
+Baisu2	7	NULL	21
+Baisu2	8	NULL	55
+Bar5	1	NULL	24
+Bar5	2	NULL	15
+Bar5	3	NULL	37
+Bar5	4	NULL	1
+Basho1	1		
+BinaryNumber	1	1 0 1	
+BinaryNumber	2	1 0 1 0 1	
+Bmi	1		170 80
+Bmi	2		150 40
+Bmi	3		170 65
+Bmi	4		-180 90
+Bmi	5		0 80
+Bmi	6		145 -45
+Bonjour	1	NULL	NULL
+Calc1	1	NULL	NULL
+Calc10	1	NULL	NULL
+Calc2	1	NULL	NULL
+Calc3	1	NULL	NULL
+Calc4	1	NULL	NULL
+Calc5	1	NULL	5 2
+Calc5	2	NULL	3 11
+CalcBig	1	NULL	NULL
+CalcBig2	1		
+CalcBig3	1		100000 100000
+CalcBig3	2		200 30000000000
+CalcBig3	3		4000000000 5000
+CalcJotei	1	NULL	NULL
+CalcTable1	1	NULL	NULL
+CommaDelim	1	NULL	10
+CommaDelim	2	NULL	5
+CommaDelim	3	NULL	7
+CommaDelim	4	NULL	1
+Count2	1	NULL	NULL
+Count2a	1	NULL	NULL
+Count3	1	NULL	NULL
+CountPositive	1	NULL	5 -2 6 -3 4
+CountPositive	2	NULL	0 1 2 3 4
+CountPositive	3	NULL	1 1 1 1 1
+CountPositive	4	NULL	-1 -2 -3 0 -4
+CountPositive1	1	NULL	1 2 3 4 5
+CountPositive1	2	NULL	1 0 5 -2 3
+CountPositive1	3	NULL	0 -1 0 0 0
+CountPositive1	4	NULL	-1 2 -3 4 -5
+CountRandomNumbers	1	NULL	5
+CountRandomNumbers	2	NULL	10
+CountRandomNumbers	3	NULL	100
+CountRandomNumbers	4	NULL	1000
+Daikei1	1	NULL	NULL
+Daritsu	1	NULL	108 27
+Daritsu	2	NULL	150 36
+Daritsu	3	NULL	225 72
+Daritsu	4	NULL	43650 9603
+DecimalToBinary	1		
+Diagonal	1	NULL	3 4
+Diagonal	2	NULL	12 5
+Diagonal	3	NULL	741 580
+Dice	1	NULL	NULL
+Dice	2	NULL	NULL
+Dice2	1	NULL	100
+Dice2	2	NULL	10000000
+Digit100d	1	NULL	156
+Digit100d	2	NULL	99
+Digit100d	3	NULL	234
+Digit100d	4	NULL	100
+Digit100e	1	NULL	123
+Digit100e	2	NULL	98765
+Digit100e	3	NULL	1234567890
+Digit100e	4	NULL	10000
+Digit100f	1	NULL	123
+Digit100f	2	NULL	98765
+Digit100f	3	NULL	1234567890
+Digit100f	4	NULL	10000
+Digit10b	1	NULL	123
+Digit10b	2	NULL	56
+Digit10b	3	NULL	4789
+Digit10b	4	NULL	7
+Digit10c	1	NULL	123
+Digit10c	2	NULL	952
+Digit10c	3	NULL	56
+Digit10c	4	NULL	7
+Digit10d	1	NULL	123 2
+Digit10d	2	NULL	98765 4
+Digit10d	3	NULL	1234567890 7
+Digit10d	4	NULL	10000 3
+DivMod	1	NULL	NULL
+DoubleAll	1	5 3 6 1 2	NULL
+DoubleAll	2	1 2 3 4 5 6 7 8 9	NULL
+DoubleAll	3	5	NULL
+EnsuiTaiseki	1		
+Eto	1	NULL	2020
+Eto	2	NULL	2021
+Eto	3	NULL	1962
+Eto	4	NULL	1972
+Eto	5	NULL	1982
+Eto	6	NULL	1992
+Eto	7	NULL	2002
+Eto	8	NULL	2001
+Even	1	NULL	5
+Even	2	NULL	8
+Even	3	NULL	101
+Even	4	NULL	0
+Evens	1	2 4 1 6 3	NULL
+Evens	2	1 3 5 7 9	NULL
+Evens	3	0 3 10 6 4 5 3 2	NULL
+Floor1	1	NULL	1.111
+Floor1	2	NULL	3.1415
+Floor1	3	NULL	12.3
+Floor1	4	NULL	123.0
+Floor2	1		123 1
+Floor2	2		987654 3
+Floor2	3		123456789 6
+Floor2	4		1000 3
+Gokei	1	NULL	NULL
+Goukei2	1	NULL	5 4 7 3 2 6
+Goukei2	2	NULL	3 -1 -3 5
+Goukei2	3	NULL	10 0 0 0 0 0 0 0 0 0 0
+Goukei2	4	NULL	1 1
+Goukei3	1	NULL	4 3 5 9 7
+Goukei3	2	NULL	4 4 10 40 20
+Goukei3	3	NULL	5 131 115 62 135 198
+Graph14	1	NULL	5 131 115 62 135 198
+Graph14	2	NULL	4 100 104 105 0
+Heikin3	1	NULL	NULL
+Heikin4	1	NULL	NULL
+Heikin6	1	NULL	NULL
+Hello	1	NULL	NULL
+Hello3	1	NULL	NULL
+HoursAndMinutes	1		
+HowOldAreYou	1	NULL	Yuki 36
+HowOldAreYou	2	NULL	拓殖太郎 19
+HowOldAreYou2	1	NULL	Yuki 36
+HowOldAreYou2	2	NULL	拓殖太郎 19
+HowOldAreYou3	1		拓殖太郎 20
+HowOldAreYou3	2	NULL	高尾二郎 18
+HowOldAreYou3	3		茗荷谷花子 16
+Hoyuritu	1	NULL	NULL
+IntegerDecimal	1	NULL	3.14
+IntegerDecimal	2	NULL	56.789
+IntegerDecimal	3	NULL	0.12
+IntegerDecimal	4	NULL	45.0
+Kasa1	1	NULL	35
+Kasa1	2	NULL	70
+Kasa1	3	NULL	50
+Kasa1	4	NULL	49
+Kasa2	1	NULL	120
+Kasa2	2	NULL	35
+Kasa2	3	NULL	70
+Kasa2	4	NULL	50
+Kasa2	5	NULL	49
+Kasa2	6	NULL	100
+Kasa3	1	NULL	120
+Kasa3	2	NULL	35
+Kasa3	3	NULL	70
+Kasa3	4	NULL	50
+Kasa3	5	NULL	49
+Kasa3	6	NULL	-1
+Kasa3	7	NULL	0
+Kasa3	8	NULL	100
+Kasa4	1	NULL	120
+Kasa4	2	NULL	30
+Kasa4	3	NULL	70
+Kasa4	4	NULL	50
+Kasa4	5	NULL	29
+Kasa4	6	NULL	-1
+Kasa4	7	NULL	0
+Kasa4	8	NULL	100
+Keisan	1	NULL	NULL
+Kouka	1	NULL	968
+Kouka	2	NULL	501
+Kouka	3	NULL	1987
+Kouka2	1	NULL	968
+Kouka2	2	NULL	-1053
+Kouka2	3	NULL	0
+Kouka2	4	NULL	-1
+Kouka3	1	2 4 3 1 5 3	1600
+Kouka3	2	1 3 0 1 0 3	705
+Kouka3	3	1 3 0 1 0 3	712
+Kouka500	1	NULL	968
+Kouka500	2	NULL	1987
+Kouka500	3	NULL	501
+Kuku1	1	NULL	NULL
+Kuku2	1	NULL	NULL
+KyuTaiseki	1	NULL	NULL
+Language	1	NULL	Java Python
+Language	2	NULL	C C#
+Language	3	NULL	Java JavaScript
+Lookup2	1	4 6 4 2 3	2
+Lookup2	2	4 6 4 2 3	4
+Lookup2	3	1 2 3 4 5 6 7 8 9 10	5
+Lookup2	4	3 0 10 4 0 5 9 7	0
+Machigai	1	NULL	NULL
+Machigai1	1		
+Machigai12	1	1 2 3 4 5	NULL
+Machigai12	2	10 5 8 9	NULL
+Machigai12	3	20 21 23 24 25	NULL
+Machigai2	1	NULL	NULL
+Machigai4	1	NULL	NULL
+Machigai4b	1	NULL	19
+Machigai4b	2	NULL	35
+Machigai4b	3	NULL	9
+Machigai5b	1	NULL	NULL
+Machigai5b	2	NULL	NULL
+Machigai7	1	NULL	NULL
+Machigai8	1	NULL	NULL
+MachigaiLong	1	NULL	NULL
+MachigaiTriangle	1		
+MachigaiVar	1	NULL	NULL
+MatVariance	1	3 7 2 4	NULL
+MatVariance	2	15 0 5 80 85 60 25 40 55 90 75 10 35 70 95 20 65 30 45 50	NULL
+Max2	1	NULL	5 3 6 2 4
+Max2	2	NULL	1 2 3 4 5
+Max2	3	NULL	1 1 1 1 1
+Max2	4	NULL	5 4 3 2 1
+Max2	5	NULL	3 -4 2 -6 3
+Max2	6	NULL	-5 -2 -3 -1 -4
+Max2	7	NULL	-1000 -2000 -500 -20000 -6666
+Max5	1	3 1 7 3 6	NULL
+Max5	2	-7 -2 -8 -5	NULL
+Max5	3	115 198 198 67 135	NULL
+Max5	4	-4 -2 -7 -6 -5 -1	NULL
+MensekiTaiseki	1	NULL	NULL
+MonteCarlo	1	NULL	100
+MonteCarlo	2	NULL	1000
+MonteCarlo	3	NULL	10000
+MonteCarlo	4	NULL	100000
+Moyo1	1	NULL	NULL
+Moyo2	1	NULL	NULL
+Moyo4	1	NULL	＊
+Moyo4	2	NULL	・
+Moyo4	3	NULL	12
+Moyo5	1	NULL	3
+Moyo5	2	NULL	7
+Moyo5	3	NULL	1
+Moyo5a	1	NULL	5
+Moyo5a	2	NULL	7
+Moyo5a	3	NULL	4
+Name	1	NULL	NULL
+Narabekae2	1	NULL	5 3
+Narabekae2	2	NULL	3 3
+Narabekae2	3	NULL	2 3
+Narabekae3	1	NULL	2 1 3
+Narabekae3	2	NULL	4 -2 -2
+Narabekae3	3	NULL	1 2 3
+Narabekae3	4	NULL	1 3 2
+Narabekae3	5	NULL	2 3 1
+Narabekae3	6	NULL	3 1 2
+Narabekae3	7	NULL	-1 -2 -3
+Narabekae3	8	NULL	1 1 2
+Narabekae3	9	NULL	1 2 1
+Narabekae3	10	NULL	1 1 1
+NegMod	1	NULL	10 3
+NegMod	2	NULL	-10 3
+NegMod	3	NULL	13 -4
+NegMod	4	NULL	-11 -4
+NegMod	5	NULL	-12 3
+Nenrei	1	NULL	17
+Nenrei	2	NULL	20
+Nenrei	3	NULL	6
+Nenrei	4	NULL	23
+NumOfDigits	1	NULL	123
+NumOfDigits	2	NULL	98765
+NumOfDigits	3	NULL	1234567890
+NumOfDigits	4	NULL	1
+OddsEvens	1	1 2 3 4 5 6	
+Omikuji	1	NULL	NULL
+Omikuji	2	NULL	NULL
+Order	1	NULL	ウーロン茶
+Order	2	NULL	アメリカンコーヒー
+Order	3	NULL	ハンバーガー
+Plus100	1	NULL	NULL
+PowerOfTwo	1		3
+PowerOfTwo	2	NULL	10
+PowerOfTwo	3		40
+PrintPositive	1	NULL	5 1 -2 3 -4 5
+PrintPositive	2	NULL	3 0 -1 -2
+PrintPositive	3	NULL	4 -1 5 9 -10
+Quiz31	1	NULL	12345
+Quiz31	2	NULL	0
+Quiz31	3	NULL	-10
+Quiz32	1	NULL	5 28
+Quiz32	2	NULL	7 3
+Quiz3b	1	NULL	NULL
+RainFall	1	NULL	1.5 5.5 6.0 0.0 0.0 0.5 4.5
+RainFall	2	NULL	8.5 16.5 45.5 0.0 12.0 6.5 0.0
+RainFall	3	NULL	0.5 0.0 0.0 0.0 0.0 1.5 2.0
+RandomArray	1		10
+RandomArray	2		20
+RandomArray	3		30
+Ransu	1	NULL	12
+Ransu	2	NULL	14
+Ransu1	1	NULL	11
+Ransu1	2	NULL	14
+Ransu2	1	NULL	3
+Ransu2	2	NULL	5
+Ransu2	3	NULL	1
+RansuRange	1		5 10
+RansuRange	2		10 99
+RansuRange	3		1 2
+RansuRange	4		5 5
+Reverse	1	NULL	5 1 2 3 4 5
+Reverse	2	NULL	3 3 1 4
+Reverse	3	NULL	7 1 1 2 3 5 8 13
+Round1	1	NULL	1.23
+Round1	2	NULL	19.555
+Round1	3	NULL	12.4999
+Round1	4	NULL	1.0
+Saidai	1	NULL	4 3 2 5
+Saidai	2	NULL	1 7 3 4
+Saidai	3	NULL	-3 -5 -2 -4
+Saidai	4	NULL	15 0 -1 2
+Saidai	5	NULL	26 35 12 50
+Saidai	6	NULL	1 2 3 4
+Series	1	9 9 1 1 4	NULL
+Series	2	1 2 3 4 5	NULL
+Series	3	3 6 6 3 0 7 8 6	NULL
+Series	4	0 1 0 1 0 1 0	NULL
+Shiharai	1	NULL	378 6
+Shiharai	2	NULL	378 0
+Shiharai	3	NULL	378 7
+Shiharai	4	NULL	119 21
+Shiharai	5	NULL	500 5
+Shiharai	6	NULL	500 1
+Shiharai	7	NULL	1 5
+Shiharai	8	NULL	0 5
+Shiharai	9	NULL	-378 -10
+Shuffle	1	NULL	NULL
+Shuffle	2	NULL	NULL
+Sign	1	NULL	5
+Sign	2	NULL	-7
+Sign	3	NULL	0
+Sign	4	NULL	12
+SortData	1	34 2 23 67 7 83 3 5 78 7 2 24	NULL
+SortData	2	3 6 4 1 7 9 5 2 8	NULL
+SortData	3	2 5 3 1 3 2 4 1 5	NULL
+SortData	4	31 41 59 26 53 58 97 93 23 84	NULL
+SortData	5	0 0 0 0 0 0 0 0 0	NULL
+SortData	6	9 8 7 6 5 4 3 2 1	NULL
+SortData	7	1 1 1 1 1 1 1 1 1	NULL
+Sqrt	1	NULL	2 100
+Sqrt	2	NULL	2 10000
+Sqrt	3	NULL	2 1000000
+Sqrt	4	NULL	2 10000000
+Sqrt	5	NULL	3 10000000
+Symbols	1	NULL	NULL
+Tab	1	NULL	NULL
+Takudai3	1	NULL	NULL
+Tax10	1	NULL	NULL
+Tax10b	1	NULL	4
+Tax10b	2	NULL	10
+Tax10b	3	NULL	7
+ToBinary	1	NULL	5
+ToBinary	2	NULL	73
+ToBinary	3	NULL	65535
+ToBinary	4	NULL	8388609
+Translate	1	NULL	0
+Translate	2	NULL	1
+Translate	3	NULL	2
+Translate	4	NULL	3
+Translate	5	NULL	4
+Translate	6	NULL	5
+Translate	7	NULL	6
+Translate	8	NULL	7
+Translate	9	NULL	8
+Translate	10	NULL	9
+Twice	1	NULL	3
+Twice	2	NULL	47
+Twice	3	NULL	-3
+Twice	4	NULL	0
+Urudosi	1	NULL	2020
+Urudosi	2	NULL	2021
+Urudosi	3	NULL	2100
+Urudosi	4	NULL	2000
+Urudosi0	1	NULL	2020
+Urudosi0	2	NULL	2100
+Urudosi0	3	NULL	2021
+Urudosi0	4	NULL	2000
+Urudosi1	1	NULL	2021
+Urudosi1	2	NULL	2000
+Urudosi1	3	NULL	2020
+Urudosi1	4	NULL	2100
+Urudosi2	1	NULL	2020
+Urudosi2	2	NULL	2100
+Urudosi2	3	NULL	2021
+Urudosi2	4	NULL	2000
+Urudosi3	1	NULL	NULL
+Var1	1	NULL	NULL
+Var11	1	NULL	NULL
+Var2	1	NULL	NULL
+Var4	1	NULL	NULL
+Yakusuu	1	NULL	36
+Yakusuu	2	NULL	108
+Yakusuu	3	NULL	784

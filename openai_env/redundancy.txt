@@ -1,0 +1,70 @@
+Here is an example of redundancy for your reference.
+
+"if immediately after else"
+
+else {
+}if(){
+
+Solution: simplify as else if(){
+
+"for statement with 0 or 1 iterations"
+
+for(int i=0;i<1;i++){	
+
+Solution: remove unnecessary for statements
+
+"if statement with no need for conditional branching"
+	
+if (a>0){
+}else if (a<=0){	
+
+Solution: remove unnecessary conditional branching
+
+"if statement not to be reached"
+
+(if variable is defined as 0 or greater)
+if (a>0){
+}else if (a<=0){	
+
+Solution: Remove unreachable conditional branches
+
+"Excessive for statement".	
+
+(when 10 iterations are sufficient as a problem)
+for(int i=0;i<100;i++){	
+
+Solution: shorten the number of iterations
+
+"Repeated addition"
+
+y=x+x+x	
+
+Solution: Summarize as y=x*3
+
+Redundant arithmetic	
+
+1*x, x/x , x-x	
+
+Solution: simplify
+
+"Duplicate statement"
+	
+System.out.println("Hello!");
+System.out.println("Hello!");
+System.out.println("Hello!"); System.out.println("Hello!");	
+
+Solution: use a for statement
+
+"Duplicate calculation"; System.out.print("Hello!"); System.out.print("Hello!")
+
+System.out.println("Total is "+a+b"); System.out.
+System.out.println("The average is "+(a+b)/n);")	
+
+Solution: use variables to reduce duplication
+
+"Unused variables "
+
+int x = 2, y = 1;
+System.out.println(x);	
+
+Proposed solution: remove variable declarations
