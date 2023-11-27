@@ -77,7 +77,6 @@ def chat():
     model="gpt-3.5-turbo",
     messages=prior_input+after_input
   )
-  print(after_input)
   return completion.choices[0].message.content
 
 # サイクロマティック複雑度と行数の比較

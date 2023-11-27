@@ -2,13 +2,7 @@ from antlr4 import *
 from Java8Lexer import Java8Lexer
 from Java8Parser import Java8Parser
 from Java_listener import Java8Listener
-import javarule1
-import javarule2
-import javarule3
-import javarule4
-import javarule5
-import javarule6
-import javarule7
+import JavaRule
 listener = Java8Listener()
 
 # 構文解析を行う
@@ -54,19 +48,19 @@ def get_Cyclomatic(input_file):
 # 各授業回ごとの構文のホワイトリストを取得
 def get_javarule(i):
     if(int(i)==1 or int(i)==2):
-        javarule = javarule1.javaRule
+        javarule = JavaRule.javaRule1
     elif(int(i)==3):
-        javarule = javarule2.javaRule
+        javarule = JavaRule.javaRule2
     elif(int(i)==4):
-        javarule = javarule3.javaRule
+        javarule = JavaRule.javaRule3
     elif(int(i)==5):
-        javarule = javarule4.javaRule
+        javarule = JavaRule.javaRule4
     elif(int(i)==6 or int(i)==7 or int(i)==8):
-        javarule = javarule5.javaRule
+        javarule = JavaRule.javaRule5
     elif(int(i)==9 or int(i)==10):
-        javarule = javarule6.javaRule
+        javarule = JavaRule.javaRule6
     elif(int(i)==11 or int(i)==12 or int(i)==13):
-        javarule = javarule7.javaRule
+        javarule = JavaRule.javaRule7
     return javarule
 
 if __name__ == "__main__":

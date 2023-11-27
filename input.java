@@ -1,4 +1,3 @@
-package improvement;
 public class DoubleAll{
     public static void main(String[] args){
         
